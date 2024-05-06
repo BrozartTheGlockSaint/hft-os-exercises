@@ -4,9 +4,11 @@
 Most linux distributions are delivered with so-called man pages. The man pages are something like a manual for the functions of the installed programs, libraries and the kernel.
 Familiarize yourself with the use of the man pages in the following.  Try to answer the following questions:
 * how can i determine the cpu architecture of the running machine. Hint: `man uname`
+A: arch
 * what is the purpose of `-t` in ls -alht? Hint: `man ls`
+A: Order by time
 * what is the difference between `man 1 time` and `man 2 time` and `man 7 time`. Hint: `man man`
-
+A: man *number* time shows the section at number. man man shows the overview.
 
 
 ## Exploring the Hardware
